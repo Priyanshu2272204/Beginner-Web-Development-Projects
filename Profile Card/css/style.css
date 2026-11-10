@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 280px;
+    height: 480px;
+    padding-top: 8px;
+    background-color: #fcfcfc;
+    border-radius: 40px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.photo {
+    width: 264px;
+    height: 280px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 32px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.Name_About {
+    width: 280px;
+    height: 123px;
+    gap: 4px;
+    padding: 20px 28px;
+}
+
+.Name {
+    width: 178px;
+    height: 33px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+.about {
+    width: 224px;
+    height: 46px;
+    color: #767676;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.others {
+    width: 280px;
+    height: 68px;
+    padding-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.one span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 109px;
+    height: 44px;
+    gap: 4px;
+    padding: 11.5 22;
+    background-color: #efefef;
+    border-radius: 32px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.two img {
+    width: 17px;
+}
+
+.two:hover {
+    transform: translateY(-2px);
+    transition: 0.3s ease;
+}

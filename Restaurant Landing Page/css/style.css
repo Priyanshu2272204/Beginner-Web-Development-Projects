@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koulen&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/maiandra-gd');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 1440px;
+    height: 94px;
+    padding: 20px 30px;
+    gap: 10px;
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Logo {
+    width: 368px;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 28px;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.Logo img {
+    width: 54px;
+    height: 54px;
+}
+
+.Logo li {
+    gap: 16px;
+}
+
+.Lists {
+    gap: 10px;
+    cursor: pointer;
+}
+
+.Lists li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Lists li:hover {
+    transform: scale(1.2);
+    transition: all 0.1s linear;
+    background-color: #49315E;
+    border-radius: 20px;
+}
+
+.menu,
+.about_us,
+.home {
+    width: 110px;
+    height: 54px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.guest {
+    width: 135px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.section_one {
+    width: 1390px;
+    height: 732px;
+    margin: auto;
+    opacity: 2;
+    font-family: 'Maiandra GD', sans-serif;
+}
+
+.section_one img {
+    width: 100%;
+    height: 100%;
+}
+
+.section_one .container {
+    width: 479px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 311px;
+}
+
+.section_one .container .container-1 {
+    width: 100%;
+    height: 192px;
+    font-size: 40px;
+}
+
+.section_one .container .container-2 {
+    width: 280px;
+    height: 49px;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 9px 53px;
+    background-color: #8E7D7D;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.container-2:hover {
+    transform: scale(1.2);
+    transition: all 0.1s linear;
+}
+
+.section_two {
+    width: 1400px;
+    height: 367px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.our_journey img {
+    width: 953px;
+}
+
+.EMOTICON {
+    width: 406px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Maiandra GD', sans-serif;
+}
+
+.icons {
+    width: 100%;
+    height: 153px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.smile,
+.dish {
+    width: 178px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.smile:hover,
+.dish:hover {
+    background-color: rgba(128, 128, 128, 0.485);
+    border-radius: 10px;
+}
+
+.smile_3640,
+.dish_30 {
+    width: 100%;
+    height: 68px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section_three {
+    width: 441px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 60px;
+    margin: auto;
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1;
+}
+
+.section_three_two {
+    font-size: 28px;
+}
+
+.section_four {
+    width: 1390px;
+    height: 1388px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    color: white;
+    margin: auto;
+}
+
+.section_four img {
+    border-radius: 30px;
+}
+
+.section_four_one {
+    width: 1390px;
+    height: 446px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 25px;
+    margin: auto;
+}
+
+.section_four_one div {
+    width: 864px;
+    height: 446px;
+}
+
+.section_four_one div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.section_four_one>img {
+    width: 501px;
+    height: 446px;
+}
+
+.section_four_two {
+    width: 1390px;
+    height: 446px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: auto;
+}
+
+.section_four_two img {
+    width: 447px;
+    height: 446px;
+    object-fit: cover;
+}
+
+.section_four_three {
+    width: 1390px;
+    height: 446px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin: auto;
+}
+
+.section_four_three div img {
+    width: 552px;
+    height: 446px;
+}
+
+.section_four_three>img {
+    width: 813px;
+    height: 446px;
+}
+
+.section_five {
+    width: 441px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 60px;
+    margin: auto;
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1;
+    margin-top: 60px;
+}
+
+.section_five_two {
+    font-size: 28px;
+}
+
+.section_six {
+    width: 1390px;
+    height: 553px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_six img {
+    width: 100%;
+    height: 100%;
+}
+
+.section_seven {
+    width: 1390px;
+    height: 516px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-top: 60px;
+    font-family: 'Maiandra GD', sans-serif;
+}
+
+.section_seven_one img {
+    width: 542px;
+    height: 100%;
+}
+
+.section_seven_two {
+    width: 823px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 31px;
+}
+
+.section_seven_two_one {
+    width: 100%;
+    height: 76px;
+    font-size: 32px;
+}
+
+.section_seven_two_two {
+    width: 776px;
+    height: 96px;
+    font-size: 20px;
+}
+
+.section_seven_two_three form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.section_seven_two_three input,
+select {
+    width: 403px;
+    height: 59px;
+    border: none;
+    border-bottom: 1px solid #999;
+    color: black;
+    background-color: white;
+}
+
+.section_seven_two_three input:focus,
+select:focus {
+    border-bottom: 2px solid #000;
+}
+
+input::placeholder,
+select {
+    color: black;
+    padding: 10px 30px;
+}
+
+.button {
+    width: 823px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button {
+    padding: 9px 53px;
+    color: white;
+    background-color: #49315E;
+    border: none;
+    border-radius: 10px;
+    font-size: 34px;
+    font-family: 'Maiandra GD', sans-serif;
+    cursor: pointer;
+}
+
+.button button:hover {
+    transform: scale(1.2);
+    transition: all 0.1s linear;
+}
+
+.section_eight {
+    width: 1390px;
+    height: 660px;
+    background-color: #D2B3FF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    font-family: 'Maiandra GD', sans-serif;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.Section_eight_one img {
+    width: 761px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.section_eight_two {
+    width: 761px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    position: absolute;
+    left: 40px;
+    top: 48px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section_eight_two>div {
+    width: 701px;
+    height: 86px;
+    font-size: 24px;
+}
+
+.section_eight_two>div div {
+    font-size: 32px;
+}
+
+.section_eight_two form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.section_eight_two form input,
+textarea {
+    width: 701px;
+    height: 59px;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+.email_phone_number,
+textarea {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 60px;
+    width: 701px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.email_phone_number input {
+    width: 50%;
+}
+
+.section_eight_two form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section_eight_two textarea {
+    width: 701px;
+    height: 59px;
+    margin-top: 120px;
+}
+
+.submit {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.submit button {
+    width: 173px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #49315E;
+    padding: 9px 53px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    transform: scale(1.2);
+    transition: all 0.1s linear;
+}
+
+.section_eight_three {
+    width: 522px;
+    height: 402px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    color: black;
+    z-index: 5;
+    font-family: 'Maiandra GD', sans-serif;
+    margin: auto;
+}
+
+.contact {
+    position: relative;
+    font-size: 32px;
+    width: 286px;
+    height: 38px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 522px;
+    height: 264px;
+    gap: 86px;
+}
+
+.address {
+    width: 445px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 32px;
+    gap: 20px;
+}
+
+.address div {
+    width: 445px;
+    height: 38px;
+    font-size: 30px;
+}
+
+.social_media {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+.section_nine {
+    width: 1375px;
+    height: 266px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Maiandra GD', sans-serif;
+}
+
+.section_nine_contact {
+    width: 496px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 38px;
+}
+
+.Contact_info {
+    width: 496px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 32px;
+}
+
+.center {
+    font-family: "Koulen", sans-serif;
+    width: 441px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.company_name {
+    width: 100%;
+    height: 90px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.social_media_logo {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.social_media_logo img {
+    width: 30px;
+}
+
+.Home {
+    width: 438px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 40px;
+    font-family: 'Maiandra GD', sans-serif;
+}
+
+.home_home {
+    width: 100%;
+    height: 46px;
+    font-size: 38px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.home_others {
+    width: 100%;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 32px;
+}
+
+.section_ten {
+    width: 260px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 5px;
+    font-size: 18px;
+}
